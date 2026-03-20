@@ -1,0 +1,21 @@
+{
+  "name": "modernize-java-plugins",
+  "metadata": {
+    "description": "Java Upgrade Assistant plugins for GitHub Copilot"
+  },
+  "owner": {
+    "name": "Microsoft"
+  },
+  "plugins": [
+    {
+      "name": "modernize-java",
+      "source": "./plugins/modernize-java",
+      "description": "AI-powered Java modernization and upgrade assistant. Helps upgrade Java and Spring Boot applications to the latest versions."
+    },
+    {
+      "name": "modernize-azure-java",
+      "source": "./plugins/modernize-azure-java",
+      "description": "AI-powered Java modernization assistant for Azure. Helps migrate Java applications to Azure services and modern Java versions."
+    }
+  ]
+}

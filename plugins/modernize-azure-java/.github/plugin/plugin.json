@@ -1,0 +1,16 @@
+{
+  "name": "modernize-azure-java",
+  "version": "1.0.0",
+  "description": "AI-powered Java modernization assistant for Azure. Helps migrate Java applications to Azure services.",
+  "author": {
+    "name": "Microsoft"
+  },
+  "keywords": [
+    "Java",
+    "Azure",
+    "modernization",
+    "migration",
+    "spring-boot"
+  ],
+  "license": "MIT"
+}

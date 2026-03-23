@@ -20,7 +20,7 @@ This repository provides GitHub Copilot CLI plugins for Java modernization scena
 1. Add this repository marketplace:
 
    ```bash
-   copilot plugin marketplace add <path-to-repo>/.github/plugin/marketplace.json
+   copilot plugin marketplace add /path/to/copilot-plugin/.github/plugin/marketplace.json
    ```
 
 2. Verify marketplaces:

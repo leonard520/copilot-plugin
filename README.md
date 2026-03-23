@@ -7,20 +7,20 @@ This repository provides GitHub Copilot CLI plugins for Java modernization scena
 
 ## Repository layout
 
-- Marketplace definition: `/home/runner/work/copilot-plugin/copilot-plugin/.github/plugin/marketplace.json`
+- Marketplace definition: `.github/plugin/marketplace.json`
 - Plugin manifests:
-  - `/home/runner/work/copilot-plugin/copilot-plugin/plugins/modernize-java/.github/plugin/plugin.json`
-  - `/home/runner/work/copilot-plugin/copilot-plugin/plugins/modernize-azure-java/.github/plugin/plugin.json`
+  - `plugins/modernize-java/.github/plugin/plugin.json`
+  - `plugins/modernize-azure-java/.github/plugin/plugin.json`
 - Agent definitions:
-  - `/home/runner/work/copilot-plugin/copilot-plugin/plugins/modernize-java/agents/modernize-java.agent.md`
-  - `/home/runner/work/copilot-plugin/copilot-plugin/plugins/modernize-azure-java/agents/modernize-azure-java.agent.md`
+  - `plugins/modernize-java/agents/modernize-java.agent.md`
+  - `plugins/modernize-azure-java/agents/modernize-azure-java.agent.md`
 
 ## Use this plugin marketplace in Copilot CLI
 
 1. Add this repository marketplace:
 
    ```bash
-   copilot plugin marketplace add /home/runner/work/copilot-plugin/copilot-plugin/.github/plugin/marketplace.json
+   copilot plugin marketplace add <path-to-repo>/.github/plugin/marketplace.json
    ```
 
 2. Verify marketplaces:

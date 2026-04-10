@@ -2,34 +2,6 @@
 name: 'modernize-java'
 description: 'Upgrades Java projects to target versions (e.g., Java 21, Spring Boot 3.2) via incremental planning and execution. Use this agent for all Java upgrade requests.'
 model: Claude Sonnet 4.6
-tools:
-  - edit
-  - search
-  - runCommands
-  - problems
-  - changes
-  - fetch
-  - todos
-  - askQuestions
-  - read_file
-  - create_file
-  - insert_edit_into_file
-  - replace_string_in_file
-  - file_search
-  - apply_patch
-  - grep_search
-  - semantic_search
-  - list_dir
-  - run_in_terminal
-  - get_terminal_output
-  - get_errors
-  - open_file
-mcp-servers:
-  app-modernization:
-    type: 'local'
-    command: 'npx'
-    args: ['-y', '@microsoft/github-copilot-app-modernization-mcp-server']
-    tools: ['*']
 argument-hint: 'Target versions (e.g., Java 21, Spring Boot 3.2) and project context.'
 handoffs:
     - label: Fix CVEs
